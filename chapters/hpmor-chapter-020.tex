@@ -1,456 +1,862 @@
-\chapter{Bayes’s Theorem}
+\chapter{Teoremo de Bajes}
 
-\lettrine{H}{arry} stared up at the grey ceiling of the small room, from where he lay on the portable yet soft bed that had been placed there. He’d eaten quite a lot of Professor Quirrell’s snacks—intricate confections of chocolate and other substances, dusted with sparkling sprinkles and jewelled with tiny sugar gems, looking highly expensive and proving, in fact, to be quite tasty. Harry hadn’t felt the least bit guilty about it either, \emph{this} he had \emph{earned}.
+\begin{center}\rule{3in}{0.4pt}\end{center}
 
-He hadn’t tried to sleep. Harry had a feeling that he wouldn’t like what happened when he closed his eyes.
+Harry fiksrigardis supren al la griza plafono de la eta ĉambro, de kie
+li kuŝis sur la portebla lito mola, kiu estis placita tie ĉi. Li estis
+manĝinta multe da la manĝetoj de Profesoro Ciuro —komplikaj dolĉaĵoj
+de ĉokolado kaj aliaj substancoj, polvitaj kun briletaj etaj aĵoj kaj
+etaj gemoj el sukero, aspektante tre kosta kaj montrigante sin, fakte,
+esti tute gusta. Harry tute ne sentis sin kulpa pri tio, \emph{tion
+ĉi} li estis \emph{gajninta}.
 
-He hadn’t tried to read. He wouldn’t have been able to focus.
+Li ne provis dormi. Harry havis la senton ke li ne ŝatus tion, kio
+okazus se li fermus la okulojn.
 
-Funny how Harry’s brain just seemed to keep on running and running, never shutting down no matter how tired it got. It got stupider but it refused to \emph{switch off.}
+Li ne provis legi. Li estintus ne kapabla koncentri sin.
 
-But there was, there really and truly was a feeling of triumph.
+Amuze, kiel la cerbo de Harry ĵus ŝajnis daŭri funkcii kaj funkcii,
+neniam halti ne gravas kiel laca ĝi estas. Ĝi fariĝas pli stulta sed
+ĝi rifuzas \emph{elŝaltiĝi}.
 
-Anti-Dark-Lord-Harry programme, +1 point didn’t \emph{begin} to cover it. Harry wondered what the Sorting Hat would say \emph{now}, if he could put it on his head.
+Sed li havis, li vere kaj reale havis senton de triumfo.
 
-No \emph{wonder} Professor Quirrell had accused Harry of heading down the path of a Dark Lord. Harry had been too slow on the uptake, he should have seen the parallel right away—
++1 poento al la programo de Kontraŭ-Harry-La-Mastro-De-La-Tenebroj,
+ne eĉ iomete priskribis ĝin. Harry sin demandis kion la Ordiganta
+Ĉapelo dirintus nun, se li povus meti ĝin sur sian kapon.
 
-\emph{Understand that the Dark Lord did not win that day. His goal was to learn martial arts, and yet he left without a single lesson.}
+Ne surprize Profesoro Ciuro akuzis Harry'n direktigi sin laŭ la vojo
+irante al la Mastro de la Tenebroj. Harry ne komprenis tro malrapide,
+li devintus vidi la paralelon direkete—
+
+\emph{Komprenu ke la Mastro de la Tenebroj ne gajnis en tiu ĉi tago. Lia
+  celo estis lerni luktajn artojn, kaj li eliris sen eĉ unu leciono.}
+
+Harry eniris la Pocia klason kun le intenco de lerni Pociojn. Li
+eliris sen eĉ unu leciono.
+
+Kaj Profesoro Ciuro aŭdis, kaj komprenis kun timiganta akurateco,
+etendis la manon kaj retiris Harry'n de la vojo, la vojo kiu kondukas
+al estiĝi kopion de Vi-Scias-Kiu.
+
+Estis frapeto kontraŭ la pordo. ``La kurso estas fininta,'' diris la
+kvieta voĉo de Profesoro Ciuro.
+
+Harry proksimiĝis la pordon kaj troviĝis subite malkvieta. La tencio
+malpliiĝis dum li aŭdis la paŝojn de la Profesoro malproskimiĝi la
+pordon.
+
+\emph{Pri kio sur la tero temas? Ĉu ĝi estas tio, kio farigos lin
+  maldungita?}
+
+Harry malfermis la pordon, kaj vidis ke Profesoro Ciuro estis
+atendanta al kelkaj metroj malproksime.
+
+\emph{Ĉu Profesoro Ciuro sentas ĝin ankaŭ?}
 
-Harry had entered the Potions class with the intent to learn Potions. He’d left without a single lesson.
+Ili marŝi laŭ la nin-malplena scenejo al la skribotablo de Profesoro
+Ciuro, sur kiu Profesoro kliniĝis; kaj Harry, kiel antaŭe, haltis for
+antaŭe la podio.
 
-And Professor Quirrell had heard, and understood with frightening precision, and reached out and yanked Harry off that path, the path that led to his becoming a copy of You-Know-Who.
+``Do,'' Profesoro Ciuro diris. Estis amika senso pri li iel, eĉ se lia
+vizaĝo ankoraŭ gardis sian kutiman seriozeco. ``Kio estis tio, pri kio
+vi volis paroli kun mi, S-ro Potter.''
+
+\emph{Mi havas misteran makhelan flankon.} Sed Harry ne povis nur
+elbabili tion simple tiel.
+
+``Profesoro Ciuro,'' Harry diris, ``ĉu mi estas el la vojo de fariĝi
+Mastron de la Tenebroj, nun?''
+
+Profesoro Ciuro rigaridis Harry'n. ``S-ro Potter,'' li diris solane,
+kun nur leĝera grimaco, ``konsila vorto. Estas aĵoj kiel tro perfekta
+plenumo. Realaj homoj, kiuj ĵus estis frapitaj kaj humiligitaj dum dek
+kvin minutoj, ne starigas kaj gracie pardonas iliajn malamikojn. Tio
+estas la speco de aĵo, kion oni faras kiam oni provas konvinkiĉiujn ke
+oni ne estas malhela, ne—''
+
+\emph{``Mi ne povas kredi tion! Vi ne povas farigi ke ĉiuj eblaj observoj
+  povas konfirmi vian teorion!''}
+
+``Kaj tio estis \emph{iomete} tro da indigno.''
+
+\emph{``Kion sur la tero, mi devas fari por konvinki vin?''}
+
+``Por konvinki min ke vi ne havas intencojn de fariĝi Mastron de la
+Tenebroj?'' diris Profesoro Ciuro, nun aspektante tute amuzita. ``Mi
+supozas ke vi povas simple levi vian dekstran manon.''
+
+``Kio?'' Harry diris svage. ``Sed mi povas levi mian manon se mi
+volas—'' Harry haltis, sentante relative stulta.
+
+``Ja,'' diris Profesoro Ciuro. ``Vi povas fari ĝin same facile, ne
+gravas via intenco. Estas nenio, kion vi povas fari por konvinki min,
+ĉar mi tiam scias ke ĝi estis ekzakte tion, kion vi provis fari. Kaj
+se ni volas esti pli preciza, tiam dum mi supozas ke tio estas apenaŭ
+ebla ke perfektaj bonaj homoj ekzistas eĉ se mi neniam renkontis iun,
+ĝi estas malgraŭe neverŝajna ke iu, kiu estis frapita dum dek kvin
+minutoj kaj poste stariĝis, sentis subitan ondon de afabla pardoneco
+por liaj atakantoj. Alie, estas \emph{malpli} verŝajna ke juna infano
+imagus tion, kiel la \emph{rolo por roli}, por konvinki sian
+instruiston kaj samklasanojn ke li ne estos la sekvanta Mastro de la
+Tenebroj. La graveco pri ago ne estas en tio, al kio la ago similas
+\emph{je la surfaco}, S-ro Potter, sed en la stato de menso, kiu
+farigas tiun agon pli aŭ malpli verŝajna.''
+
+Harry palpebrumis. Li ĵus aŭdis la dikotomion inter la reprezentada
+heŭristiko kaj la Bajezia difino de pruvo priskribita al li per
+sorĉisto.
+
+``Sed denove,'' diris Profesoro Ciuro, ``ĉiuj ajn povas voli impresi
+siajn amikojn. Tio ne bezonas malhelon. Do sen ke tio estas ia ajn
+konfeso , S-ro Potter, diru al mi honeste. Kiu penso estis en via
+menso je la momento kiam vi malpermesis ian ajn venĝon. Ĉu tiu penso
+estis vera impulso aŭ pardono? Aŭ ĉu tio estis konscio de kiel viaj
+samklasanoj vidus la agon?''
+
+\emph{Kelkfoje, ni faras nian propran kanton de fenikso.}
+
+Sed Harry ne diris ĝin laŭte. Estis klara ke la Profesoro Ciuro ne
+kredintus lin, kaj verŝajne respektintus lin malpli por provi dissendi
+tiel travideblan mensogon.
+
+Post kelkaj momentoj de silento, Profesoro Ciuro ridetis kun
+kontentigo. ``Kredu ĝin aŭ ne, S-ro Potter,'' diris la Profesoro, ``vi
+ne bezonas timi ke mi malkovris vian sekreton. Mi ne diros al vi
+rezigni fariĝi la sekvan Mastron de la Tenebroj. Se mi povus returne
+turnigi la montrilojn de la tempo, kaj iel eligi la ambicion de la
+menso de la infana mi mem, la mi mem de hodiaŭ ne profitus pro la
+ŝanĝo. De kiam mi povas memori, tio estis mia celo, ĝi gvidis min por
+studi kaj lerni kaj bonigi min mem kaj iĝi pli forta. Ni fariĝas tion,
+kion ni devas iĝi, per sekvi niajn dezirojn, kien ajn ili kondukas
+nin. Tio estas la kompreno de Salazaro. Demandu al mi gvidi vin al la
+biblioteka sekcio, kiu havas la samajn librojn, kiujn mi legis kiam mi
+havis dek tri jarojn, kaj mi feliĉe montros al vi la vojon.''
+
+``Por la amo de malsaĝeco,'' Harry diris, kaj li sidiĝis sur la
+malmolan plankon, kaj poste kuŝiĝis sur la dorso, rigardante
+supren la malproksimajn arkojn je la plafono. Tio estis eble plej
+proksime kiel li povis kolapsi pro malespero sen vundi sin mem.
+
+``Ankoraŭ tro da indigno,'' observis Profesoro Ciuro. Harry ne
+rigardis sed li povis aŭdi la eligitan ridadon en la voĉo.
+
+Kaj Harry ekkonsciis.
+
+``Fakte, mi pensas ke mi scias tion, kio konfuzas vin tie ĉi.'' Harry
+diris. ``Tio estas pri kio mi volas paroli kun vi, fakte. Profesoro
+Ciuro, mi pensas ke tio, kion vi estas vidanta estas mia mistera
+malhela flanko.''
+
+Estis paŭzo.
+
+``Via\ldots malhela flanko\ldots''
+
+Harry sidiĝis. Profesoro Ciuro estis rigardanta lin, kun unu el la
+plej stranga esprimo, kiun Harry jam vidis sur la vizaĝo de iu, sen
+paroli de iu ajn tiel digna kiel Profesoro Ciuro.
+
+``Tio okazas kiam mi koleriĝas,'' Harry klarigis. ``Mia sango iĝas
+malvarma, ĉioj iĝas malvarmaj, ĉioj ŝajnas perfekte klaraj\ldots
+Retrospektive, tio estas kun mi ekde longe—je mia unua jaro en Mugla
+lernejo, iu provis ŝteli mian pilkon, kaj mi tenis ĝin malantaŭ mia
+dorso, kaj piedpatis lin en la suna plekso, ĉar mi legis ke ĝi estis
+malforta punkto, kaj la aliaj infanoj ne enuis min post tio. Sed tio
+estas nur freŝdate ke mi estis sub sufiĉa streso por rimarki ke ĝi
+estas reala, vi scias, mistera malhela flanko, kaj ne nur problemo de
+kolera kontrolo kiel la lerneja psikologiisto diris. Kaj mi ne havas
+ian ajn supran magian povon, kiam tio okazas, tio estas unu el la
+unuaj aĵoj kiujn mi kontrolis.''
+
+Profesoro Ciuro frotis sian nazon. ``Lasu min pripensi pri tio,'' li diris.
+
+Harry atendis silente dum tuta minuto. Li uzis tiu tempo por stariĝi,
+kio estis pli malfacila ol li anticipis.
+
+``Nu,'' Profesoro Ciuro diris post momento. ``Mi supozas ke estas io,
+kion vi povus diri al mi, kio konvinkus min.''
+
+``Mi jam \emph{divenis} ke mia malhela flanko estas reale nur alia
+parto de mi kaj ke la respondo ne estas neniam koleriĝi sed lerni
+resti sub kontrolo per akcepti ĝin, mi ne estas stulta aŭ io ajn, kaj
+mi vidis tiun ĉi historion sufiĉe da fojoj por scii tien, kien ĝi
+iras, sed tio estas malfacila kaj vi ŝajnas esti iu persono kiu
+povas helpi min.''
+
+``Nu\ldots jes\ldots tre akrevida, S-ro Potter, mi devas diri\ldots
+tiu ĉi flanko de vi, kiel vi ŝajnas jam konjektis, via intenco de
+mortigi, kiu estas kiel vi diris parto de vi\ldots''
 
-There was a knock at the door. “Classes are over,” said Professor Quirrell’s quiet voice.
+``Kaj bezonas esti trejnita,'' Harry diris por kompletigi la skemon.
+
+``Kaj bezonas esti trejnita, jes.'' La stranga esprimo estis ankoraŭ
+sur la vizaĝo de Profesoro Ciuro. ``S-ro Potter, se vi vere ne deziras
+iĝi la sekva Mastro de la Tenebroj, tial kiu estis la ambicio, kiun la
+Ordiganta Ĉapelo provis konviki vin forlasi, la ambicio pro kiu vi
+estis ordigita al Serpentimo?''
+
+``Mi estis ordigita en \emph{Korvungo!}''
+
+``S-ro Potter,'' diris Profesoro Ciuro, nun kun multe pli kutime
+aspekta rideto seka, ``Mi scias ke vi kutimas ke ĉiuj ĉirkaŭ vi estas
+stultaj, sed bonvolu ne konsideru min kiel unu el ili. La ŝanco ke la
+Ordiganta Ĉapelo faras sian unuan bubaĵon post ok cent jaroj kiam ĝi
+estis sur via kapo estas tiel eta ke ĝi ne valoras esti
+konsiderita. Mi supozas ke estas apenaŭ ebla ke vi klakis viajn
+fingrojn kaj inventis iun simplan kaj lertan manieron por venki la
+sorĉo kontraŭ kolero en la ĉapelo, kvankam mi mem povas pensi pri nenian
+manieron. Sed de for, la plej probabla klarigo estas ke Dumbledore
+decidis ke li ne estis ĝoja kun la elekto de la Ĉapelo por la
+Knabo-Kiu-Postvivis. Tio estas evidenta por iu ajn kun la plej leĝera
+kvanto da komuna saĝo, do via sekreto estas sekura en Herpŭrko.''
 
-Harry approached the door and found himself suddenly nervous. Then the tension diminished as he heard Professor Quirrell’s footsteps moving away from the door.
+Harry malfermis la buŝon, kaj poste fermis ĝin denove, kune la sento
+de kompleta senhelpeco. Profesoro Ciuro malpravis, sed malpravis laŭ
+iu tiel konvinkanta maniero ke Harry komencis pensi ke ĝi simple
+\emph{estis} la racia juĝo, donate la atestaĵojn disponeblajn al
+Profesoro Ciuro. Estis momentoj, neniam \emph{antaŭvideblaj} momentoj
+sed tamen kelkaj momentoj, kiam vi akiras neprobablajn atestaĵojn kaj
+kiam la plej bona sciebla diveno estas malĝusta. Se vi havus medicinan
+teston kiu estis malĝusta unu fojo el mil, kelkfoje ĝi tamen estus
+malĝusta ĉiaokaze.
 
-\emph{What on Earth is that about? Is it what’s going to get him fired eventually?}
+``Ĉu mi povas demandi al vi neniam ripeti tion, kion mi estas dironta al vi?'' diris Harry.
 
-Harry opened the door, and saw that Professor Quirrell was now waiting several body-lengths away.
+``Absolute,'' diris Profesoro Ciuro. ``Konsideru min demanditan''
 
-\emph{Does Professor Quirrell feel it too?}
+Harry ankaŭ ne estis stulta. ``Ĉiu mi povas konsideri ke vi respondis jes?''
 
-They walked across the now-deserted stage to Professor Quirrell’s desk, which Professor Quirrell leaned on; and Harry, as before, stopped short of the dais.
+``Tre bone, S-ro Potter. Vi povas efektive tiel konsideri.''
 
-“So,” Professor Quirrell said. There was a friendly sense about him somehow, even though his face still kept its usual seriousness. “What was it you wanted to talk to me about, Mr~Potter?”
+``*Profesoro Ciuro—*''
 
-\emph{I have a mysterious dark side.} But Harry couldn’t just blurt it out like that.
+``Mi ne ripetos tion, kion vi estas dironta al mi,'' Profesoro Ciuro diris, ridetante.
 
-“Professor Quirrell,” Harry said, “am I off the path to becoming a Dark Lord, now?”
+Ili ambaŭ ridis, poste Harry fariĝis serioze denove. ``La Ordiganta
+Ĉapelo ŝajnis pensi ke mi fariĝos Mastro de la Tenebroj
+almenaŭ ke mi irintus al Huflopufo,'' Harry diris. ``Sed mi ne volas fariĝi iu.''
 
-Professor Quirrell looked at Harry. “Mr~Potter,” he said solemnly, with only a slight grin, “a word of advice. There is such a thing as a performance which is too perfect. Real people who have just been beaten and humiliated for fifteen minutes do not stand up and graciously forgive their enemies. It is the sort of thing you do when you’re trying to \emph{convince} everyone you’re not Dark, not—”
+``S-ro Potter\ldots'' diris Profesoro Ciuro. ``Ne prenu tion
+malĝuste. Mi promesas ke via respondo ne estos juĝita. Mi nur volas
+scii tion, kion vi respondos honeste. Kial ne?''
 
-“\emph{I can’t believe this! You can’t have every possible observation confirm your theory!}”
+Harry havis tiun malhelpecan senton denove. \emph{Vi ne devas fariĝi
+Mastro de la Tenebroj} estis tiel evidenta teoremo en la morala
+sistemo ke ĝi estis malfacila por priskribi la realajn etapojn de
+pruvo. ``Hum, homoj estus vunditaj?''
 
-“And that was a \emph{trifle} too much indignation.”
+``Certe vi volis vundi homojn,'' diris Profesoro Ciuro. ``Vi volis
+vundi tiujn ĉi brutalojn hodiaŭ. Esti Mastro de la Tenebroj volas diri
+ke la homoj, kiujn vi volas vundi, fariĝas vunditaj.''
 
-“\emph{What on Earth do I have to do to convince you?}”
 
-“To convince me that you harbour no ambitions of becoming a Dark Lord?” said Professor Quirrell, now looking outright amused. “I suppose you could just raise your right hand.”
+Mankis vortojn al Harry, kaj poste li decidis simple uzi la
+evidentan. ``Unue, nur ĉar mi volas vundi iun ne volas diri ke tio
+estas ĝusta—'' 
 
-“What?” Harry said blankly. “But I can raise my right hand whether or not I—” Harry stopped, feeling rather stupid.
+``Kio farigas ion ĝusta, se ne vi volante ĝin?''
 
-“Indeed,” said Professor Quirrell. “You can just as easily do it either way. There is nothing you can do to convince me because I would know that was exactly what you were trying to do. And if we are to be even more precise, then while I suppose it is barely possible that perfectly good people exist even though I have never met one, it is nonetheless \emph{improbable} that someone would be beaten for fifteen minutes and then stand up and feel a great surge of kindly forgiveness for his attackers. On the other hand it is \emph{less} improbable that a young child would imagine this as the \emph{role to play} in order to convince his teacher and classmates that he is not the next Dark Lord. The import of an act lies not in what that act \emph{resembles on the surface,} Mr~Potter, but in the states of mind which make that act more or less probable.”
+``Ha,'' Harry diris, ``utilismo per prefero.''
 
-Harry blinked. He’d just had the dichotomy between the representativeness heuristic and the Bayesian definition of evidence explained to him by a wizard.
+``Pardonu min?'' diris Profesoro Ciuro.
 
-“But then again,” said Professor Quirrell, “anyone can want to impress their friends. That need not be Dark. So without it being any kind of admission, Mr~Potter, tell me honestly. What thought was in your mind at the moment when you forbade any vengeance? Was that thought a true impulse to forgiveness? Or was it an awareness of how your classmates would see the act?”
+``Ĝi estas la etika teorio ke la bono estas tio, kio kontentigas la preferon de la plejparto da homoj—''
 
-\emph{Sometimes we make our own phœnix song.}
+``Ne,'' Profesoro Ciuro diris. Liaj fingroj frotis la randon de sia
+nazo. ``Mi ne pensas ke ĝi estas komplete tio, kion mi provis
+diri. S-ro Potter, finfine ĉiuj homoj faras tion, kion li volas
+fari. Kelkfoje homoj donas nomojn kiel 'ĝusta' al aĵoj, kiujn li volas
+fari, sed kiel oni eble povus fari aĵon, kiu ne estas onia volo?''
 
-But Harry didn’t say it out loud. It was clear that Professor Quirrell wouldn’t believe him, and would probably respect him less for trying to utter such a transparent lie.
+``Nu, evidente,'' Harry diris. ``Mi ne povas agi laŭ moralaj
+konsideroj se ili mankas potencon por movigi min. Sed tio ne volas
+diri ke mia volo de vundi tiujn ĉi Serpentimojn havas pli da potenco
+por movigi min ol moralaj konsideroj!''
 
-After a few moments of silence, Professor Quirrell smiled with satisfaction. “Believe it or not, Mr~Potter,” said the professor, “you need not fear me for having discovered your secret. I am \emph{not} going to tell you to give up on becoming the next Dark Lord. If I could turn back the hands of time and somehow remove that ambition from the mind of my child self, the self of this present time would not benefit from the alteration. For as long as I thought that was my goal, it drove me to study and learn and refine myself and become stronger. We become what we are meant to be by following our desires wherever they lead. That is the insight of Salazar. Ask me to show you to the library section which holds those same books I read as a thirteen-year-old, and I will happily lead the way.”
+Profesoro Ciuro palpebrumis.
 
-“For the love of crap,” Harry said, and sat down on the hard marble floor, and then lay back on the floor, staring up at the distant arches of the ceiling. It was as close as he could come to collapsing in despair without hurting himself.
+``Por ne mencii,'' Harry diris, ``esti Mastro de la Tenebroj volus
+diri ke multe da senkulpaj spektantoj estus vunditaj ankaŭ!''
 
-“Still too much indignation,” observed Professor Quirrell. Harry wasn’t looking but he could hear the suppressed laughter in the voice.
+``Kial tio gravas por vi?'' Profesoro Ciuro diris. ``Kion ili faris por vi?''
 
-Then Harry realized.
+Harry ridis. ``Ho, nun tio estas tiel subtila ol \emph{La Ribelo de
+Atlas}.''
 
-“Actually, I think I know what’s confusing you here,” Harry said. “That was what I wanted to talk to you about, in fact. Professor Quirrell, I think that what you’re seeing is my mysterious dark side.”
+``Pardonu min?'' Profesoro Ciuro diris denove.
 
-There was a pause.
+``Ĝi estas libro, kiun miaj gepatroj malpermesis min por legi, ĉar ili
+pensis ke ĝi koruptos min, do evidente mi legis ĝin ĉiaokaze kaj mi
+estis ofendita pro ke ili pensis ke mi falus en tiel evidentaj
+kaptiloj. Blah blah blah, oni ĉarmas mian sencon de supereco, oni
+diras ke iliaj provas tiri min malsupren, blah blah blah.''
 
-“Your…dark side…”
+``Do ĉu vi estas diranta ke mi bezonas fari miajn kaptilojn malpli
+evidentaj?'' diris Profesoro Ciuro. Li frapetis sian fingron sur sia
+vango, aspektante pripensema. ``Mi povas labori sur tio.''
 
-Harry sat up. Professor Quirrell was regarding him with one of the strangest expressions Harry had seen on anyone’s face, let alone anyone as dignified as Professor Quirrell.
+Ambaŭ ili ridis.
 
-“It happens when I get angry,” Harry explained. “My blood runs cold, everything gets cold, everything seems perfectly clear…In retrospect it’s been with me for a while—in my first year of Muggle school, someone tried to take away my ball during recess and I held it behind my back and kicked him in the solar plexus which I’d read was a weak point, and the other kids didn’t bother me after that. And I bit a maths teacher when she wouldn’t accept my dominance. But it’s only just recently that I’ve been under enough stress to notice that it’s an actual, you know, mysterious dark side, and not just an anger management problem like the school psychologist said. And I don’t have any super magical powers when it happens, that was one of the first things I checked.”
+``Sed por daŭri kun la aktuala demando,'' diris Profesoro Ciuro, ``kion ili ĉiuj faris por vi?''
 
-Professor Quirrell rubbed his nose. “Let me think about this,” he said.
+``Aliaj homoj faris multaj grandajn aĵojn por mi!'' Harry
+diris. ``Miaj gepatroj adoptis min kiam miaj gepatroj mortis ĉar ili
+estis bonaj homoj, kaj fariĝi Mastro de la Tenebroj perfidos tion!''
 
-Harry waited in silence for a full minute. He used that time to stand up, which was more difficult than he had expected.
+Profesoro Ciuro estis silenta dum momento.
+
+``Mi konfesas,'' diris Profesoro Ciuro kviete, ``kiam mi havis vian
+aĝon, tia penso ne povus iam ajn aperi al mi.''
+
+``Mi bedaŭras,'' Harry diris.
 
-“Well,” Professor Quirrell said after a while. “I suppose there \emph{was} something you could say that would convince me.”
+``Ne fari tion,'' diris Profesoro Ciuro. ``Tio estas de longe, kaj mi
+solvis miajn gepatrajn problemojn laŭ maniero kiu ŝatas al mi. Do ĉu
+vi estas tirita malantaŭen per la penso de malaprobo de viaj gepatroj?
+Ĉu tio volas diri ke se ili mortas en akcidento, estus nenio por
+haltigi vin iĝi—''
+
+``Ne,'' Harry diris, ``Nur ne. Tio estas ilia impulso de afablo kiu
+protektas min. Tiu impulso ne estas nur en miaj gepatroj. Kaj tiu
+impulso estus tio, kio estus perfidita.''
+
+``Ĉiaokaze, S-ro Potter, vi ne respondis al mia originala respondo,''
+diris Profesoro Ciuro. ``Kio estas via ambicio?''
 
-“I \emph{have} already guessed that my dark side is really just another part of me and that the answer isn’t to never become angry but to learn to stay in control by accepting it, I’m not dumb or anything and I’ve seen this story enough times to know where it’s going, but it’s hard and you seem like the person to help me.”
+``ho,'' diris Harry. ``Hum\ldots'' Li organizis siajn
+pensojn. ``Kompreni ĉiujn gravajn aĵojn, kiuj estas por scii pri la
+universo, apliki tiun scion por fariĝi ĉiopova, kaj uzi tiun potencon
+por reskribi la realon ĉar mi havas kelkajn malkonsentojn pri la
+maniero laŭ kiu ĉio funkcias nuntempe.''
 
-“Well…yes…very perspicacious of you, Mr~Potter, I must
-say…that side of you is, as you seem to have already surmised, your intent to kill, which as you say is a part of you…”
+Estis malonga silento.
 
-“And needs to be trained,” Harry said, completing the pattern.
+``Pardonu min, se tiu demando estas stulta, S-ro Potter,'' diris
+Profesoro Ciuro. ``sed ĉu vi certas ke vi ne nur konfesis ke vi volas
+fariĝi la sekva Mastro de la Tenebroj?''
 
-“And needs to be trained, yes.” That strange expression was still on Professor Quirrell’s face. “Mr~Potter, if you truly do not wish to be the next Dark Lord, then what was the ambition which the Sorting Hat tried to convince you to abandon, the ambition for which you were Sorted into Slytherin?”
+``Tio estas nur se vi uzas viajn povojn por malbono,'' klarigis
+Harry. ``Se vi uzas la povon por la bono, vi estas Mastro de la
+Lumo.''
 
-“I was Sorted into \emph{Ravenclaw!}”
+``Mi vidas,'' Profesoro Ciuro diris. Li frapetis la alian vangon kun
+fingro. ``Mi supozas ke mi povas akcepti tion. Sed S-ro Potter, dum la
+amplekso de via ambicio estas digna de Salazaro li mem, kiel ekzakte
+vi propozas fari tion? Ĉu etapo unu estas iĝi granda batalanta
+sorĉisto, aŭ Direktoro de Neparolebla, aŭ Ministro de Magio, aŭ—''
 
-“Mr~Potter,” said Professor Quirrell, now with a much more usual-looking dry smile, “I know you are accustomed to everyone around you being a fool, but please do not mistake me for one of them. The likelihood that the Sorting Hat would play its first prank in eight hundred years while it was upon your head is so small as to not be worth considering. I suppose it is barely possible that you snapped your fingers and invented some simple and clever way to defeat the anti-tampering spells upon the Hat, though I myself can think of no such method. But by far the most probable explanation is that Dumbledore decided he was not happy with the Hat’s choice for the Boy-Who-Lived. This is evident to anyone with the tiniest smidgen of common sense, so your secret is safe at Hogwarts.”
+``Etapo unu estas iĝi scientisto.''
 
-Harry opened his mouth, then closed it again with a feeling of complete helplessness. Professor Quirrell was wrong, but wrong in such a convincing way that Harry was starting to think that it simply \emph{was} the rational judgement given the evidence available to Professor Quirrell. There were times, never \emph{predictable} times but still sometimes, when you would get improbable evidence and the best knowable guess would be wrong. If you had a medical test that was only wrong one time in a thousand, sometimes it would still be wrong anyway.
+Profesoro Ciuro estis rigardanta Harry'n kvazaŭ li ĵus ŝanĝiĝis en katon.
 
-“Can I ask you never to repeat what I’m about to say?” said Harry.
+``Sciencisto,'' Profesoro diris post kelkaj tempoj.
 
-“Absolutely,” said Professor Quirrell. “Consider me asked.”
+Harry kapjesis.
 
-Harry wasn’t a fool either. “Can I consider you to have said yes?”
+``Iu \emph{sciencisto?}'' ripetis Profesoro Ciuro.
 
-“Very good, Mr~Potter. You may indeed so consider.”
+``Jes,'' Harry diris. ``Mi devas plenumi miajn celojn per la
+povo\ldots de la \emph{Scienco!}''
 
-“\emph{Professor Quirrell—}”
+``Iu \emph{sciencisto!}'' diris Profesoro Ciuro. Estis aŭtentika
+indigno sur lia vizaĝo, kaj lia voĉo kreskis pli akra kaj seka. ``Vi
+povas esti le plej bona el miaj studentoj! La plej granda batalanta
+sorĉisto kiu venis en Herpŭrko ekde kvin jardekoj! Mi ne povas imagi
+ke vi malŝparas vian tempon en blanka laboratoria vesto farante
+senutilajn aĵojn al ratoj!''
 
-“I won’t repeat what you’re about to say,” Professor Quirrell said, smiling.
+``He!'' diris Harry. ``La scienco estas pli ol nur tio! Ne ke estas io
+\emph{malbona} kun eksperimentoj sur ratoj, evidente. Sed scienco
+\emph{estas} kiel vi faras por kompreni kaj kontroli la universon—''
 
-They both laughed, then Harry turned serious again. “The Sorting Hat did seem to think I was going to end up as a Dark Lord unless I went to Hufflepuff,” Harry said. “But I don’t \emph{want} to be one.”
+``Stultulo,'' diris Profesoro Ciuro, kun voĉo de kvieta kaj amara
+intenceso. ``Vi estas stultulo, Harry Potter.'' Li pasis sian manon
+kontraŭ sia vizaĝo, kaj kiam lia mano estis pasinta, lia vizaĝo estis
+pli kvieta. ``Aŭ pli volonte, vi ne jam trovis vian veran ambicion. Ĉu
+mi povas forte rekomendi al vi provi fariĝi Mastro de la Tenebroj
+anstataŭ? Mi faros ĉion, kion mi povas fari por helpi vin kiel afero
+de publika servico.''
 
-“Mr~Potter…” said Professor Quirrell. “Don’t take this the wrong way. I promise you will not be graded on the answer. I only want to know your own, honest reply. Why not?”
+``Vi ne ŝatas sciencon,'' Harry diris malrapide. ``Kial ne?''
 
-Harry had that \emph{helpless} feeling again. \emph{Thou shalt not become a Dark Lord} was such an obvious theorem in his moral system that it was hard to describe the actual proof steps. “Um, people would get hurt?”
+``Tiuj stultaj Mugloj mortigos nin iam!'' la voĉo de Profesoro Ciuro
+estis kreskinta pli laŭte. ``Ili finos ĉion! Ĉion finos ili!''
 
-“Surely you’ve wanted to hurt people,” said Professor Quirrell. “You wanted to hurt those bullies today. Being a Dark Lord means that people you \emph{want} to hurt get hurt.”
+Harry sentis sin iom perdita tie. ``Pri kio oni estas parolanta tie ĉi, nukleaj armiloj?''
 
-Harry floundered for words and then decided to simply go with the obvious. “First of all, just because I want to hurt someone doesn’t mean it’s right—”
+``*Jes*, nukleaj armiloj!'' Profesoro Ciuro estis preskaŭ krianta
+nun. ``Eĉ Li-Kiu-Oni-Ne-Devas-Nomi neniam uzis tiun, eble ĉar li ne
+volis regi stakon de cindroj! Ili neniam devintus esti farita! Kaj tio
+fariĝos pli malbona kun la tempo!'' Profesoro Ciuro estis staranta
+rekte anstataŭ klini sur sia skribotablo. ``Estas pordoj, kiujn vi ne
+devas malfermi, estas fermiloj, kiujn vi ne devas rompi! La stultuloj,
+kiuj ne povas malhelpi sin enmiskiĝi estas mortigitaj per malgrandaj
+danĝeroj multe tro frue, kaj la postvivantoj ĉiuj scias ke estas
+sekretoj, kiujn vi ne devas interŝanĝi kun iu ajn, al kiu mankas
+inteligento kaj disciplino por malkovri ilin per ili mem! Ĉiuj
+potencaj sorĉistoj scias tion! Eĉ la plej teruraj Malhelaj Sorĉistoj
+scias tion!  Kaj tiuj stultaj Mugloj ne ŝajnas kapabli malkovri tion!
+La avidaj etaj stultuloj kiu malkovris la sekreton de nuklea armilo,
+ne gardis ĝin por li mem, ili diris ĝin al iliaj stultaj politikistoj
+kaj nun \emph{ni} devas vivi sub la konstanta minaco de anihilacio!''
 
-“What makes something right, if not your wanting it?”
+Tiu estis relative malsama maniero de rigardi aĵojn ol tiu, kun kiu
+Harry kreskis. Ĝi neniam aperis al li ke nukleaj fizistikoj devintus
+formi konspiron de silento por gardi la sekreton de nuklea armilo de
+iu ajn, kiu ne estis sufiĉe inteligenta por esti nuklea scientisto. La
+penso estis interesiga, se ne pli. Ĉu ili havintus sekretajn
+pasvortojn? Ĉu ili havintus maskojn?
 
-“Ah,” Harry said, “preference utilitarianism.”
 
-“Pardon me?” said Professor Quirrell.
+(Fakte, laŭ ĉio, kion Harry sciis, estis multaj specoj de nekredeble
+ruinigaj sekretoj, kiujn sciencistoj gardis por ili mem, kaj la
+sekreto de nuklea armilo estis la sola kiu eskapis en la naturon. La
+mondo aspektus same al li.)
 
-“It’s the ethical theory that the good is what satisfies the preferences of the most people—”
+``Mi devos pripensi pri tio,'' Harry diris al Profesoro Ciuro. ``Tio
+estas nova ideo por mi. Kaj unu el la \emph{kaŝitaj} sekretoj de
+scienco, transdonita de kelkaj raraj instruistoj al iliaj studentoj,
+estas kiel eviti forjeti novajn ideojn je la momento kiam via aŭdis
+unu kiun vi ne amas.''
 
-“No,” Professor Quirrell said. His fingers rubbed the bridge of his nose. “I don’t think that’s quite what I was trying to say. Mr~Potter, in the end people all do what they want to do. Sometimes people give names like ‘right’ to things they want to do, but how could we possibly act on anything \emph{but} our own desires?”
 
-“Well, obviously,” Harry said. “I couldn’t \emph{act} on moral considerations if they lacked the power to move me. But that doesn’t mean my wanting to hurt those Slytherins has the power to move me \emph{more} than moral considerations!”
+Profesoro Ciuro palpebrumis denove.
 
-Professor Quirrell blinked.
+``Ĉi estas iu speco de scienco, kiun vi aprobas?'' diris Harry,
+``Medicino, eble?''
 
-“Not to mention,” Harry said, “being a Dark Lord would mean that a lot of innocent bystanders got hurt too!”
+``Spaca vojaĝado,'' diris Profesoro Ciuro. ``Sed la Mugloj ŝajnas
+treni iliajn piedojn sur la sola projekto kiu eble povus lasi la
+sorĉistoj eskapi tiun ĉi planedon antaŭ ili ekplodas ĝin.''
 
-“Why does that matter to you?” Professor Quirrell said. “What have they done for you?”
+Harry kapjesis. ``Mi ankaŭ estas granda admiranto de spaca
+programo. Almenaŭ ni havas tion komune.''
 
-Harry laughed. “Oh, now \emph{that} was around as subtle as \emph{Atlas Shrugged.}”
+Profesoro Ciuro rigardis Harry'n. Io tremis en la okuloj de la
+Profesoro. ``Mi havos vian vorton, vi promesos kaj ĵuros ke vi neniam
+parolos pri tio, kio estas sekvonta, al iu ajn.''
 
-“Pardon me?” Professor Quirrell said again.
+``Vi havas ĝin,'' Harry diris tuj.
 
-“It’s a book that my parents wouldn’t let me read because they thought it would corrupt me, so of course I read it anyway and I was offended they thought I would fall for any traps that obvious. Blah blah blah, appeal to my sense of superiority, other people are trying to keep me down, blah blah blah.”
+``Gardu vin de rompi vian ĵuron, aŭ vi ne ŝatos la rezultojn,'' diris
+Profesoro Ciuro. ``Mi nun ĵetos raran kaj potencan sorĉon, ne sur vi,
+sed sur la klasĉambro ĉirkaŭ ni. Staru rekte, por ke vi ne tuŝu la
+limojn de la sorĉo unufoje kiam ĝi estos ĵetita. Vi ne devas interagi
+kun la magio, kiun mi estas daŭriganta. Nur rigardu. Alie mi ĉesigos
+la sorĉon.'' Profesoro Ciuro faris paŭzon. ``Kaj provu ne fali.''
 
-“So you’re saying I need to make my traps less obvious?” said Professor Quirrell. He tapped a finger on his cheek, looking thoughtful. “I can work on that.”
+Harry kapjesis, konfuze kaj iom maltrankvile.
 
-They both laughed.
+Profesoro Ciuro levigis sian bastonon kaj diris ion, kion la oreloj
+kaj mensoj de Harry tute ne sukcesis kompreni, vortojn kiuj
+preterpasis konscio kaj neniiĝis al abismo.
 
-“But to stay with the current question,” said Professor Quirrell, “what \emph{have} all these other people done for you?”
+Eta cirklo de marmoro ĉirkaŭ la piedoj de Harry daŭris konstanta. Ĉiu
+la marmoro de la planko malaperis, la muroj kaj plafono neniiĝis.
 
-“Other people have done \emph{huge} amounts for me!” Harry said. “My parents took me in when my parents died because they were \emph{good people,} and to become a Dark Lord is to betray that!”
+Harry staris sur la eta cirklo el blanka marmoro en la mezo de senfina
+kampo de steloj, brulante terure helaj kaj neŝanceliĝaj. Ne estis
+tero, ne estis luno, kaj neniu suno, kiujn Harry rekonis. Profesoro
+Ciuro restis je la sama loko, kiel antaŭe, ŝvebanta en la mezo de la
+stelokampo. La Lakta Vojo estis klare videbla kiel granda bano de lumo
+kaj ĝi kreskis pli hela dum la vido de Harry adaptis al la malhelo.
 
-Professor Quirrell was silent for a time.
+La vido tordis la koron de Harry kiel nenio, kion Harry iam ajn vidis.
 
-“I confess,” said Professor Quirrell quietly, “when I was your age, that thought could not ever have come to me.”
+``Ĉu ni estas\ldots en spaco\ldots?''
 
-“I’m sorry,” Harry said.
+``Ne,'' diris Profesoro Ciuro. Lia voĉo estis malĝaja, kaj pia. ``Sed tio estas vera bildo.''
 
-“Don’t be,” said Professor Quirrell. “It was long ago, and I resolved my parental issues to my own satisfaction. So you are held back by the thought of your parents’ disapproval? Does that mean that if they died in an accident, there would be nothing left to stop you from—”
+Larmoj aperis en la okuloj de Harry. Li viŝis ilin for panike, li ne
+volis manki tion ĉi pro iu sutlta akvo kiu malklarigis lian vidon.
 
-“No,” Harry said. “Just no. It is their \emph{impulse to kindness} which sheltered me. That impulse is not only in my parents. And that impulse is what would be betrayed.”
+La steloj ne plu estis eta juveloj metita en giganta velura kupolo,
+kiel ili estis en la nokta ĉielo de la tero. Tieĉi estis ne ĉielo
+super, ne ĉirkaŭiranta sfero. Nur punktoj el perfekta lumo kontraŭ
+perfekta nigreco, senfina malpleno kun nenombreblaj etaj truoj trans
+kiuj brilis la brilanco el kelkaj malproksimaj reĝlandoj neimageblaj.
 
-“In any case, Mr~Potter, you have not answered my original question,” said Professor Quirrell finally. “What \emph{is} your ambition?”
+En la spaco, la steloj \emph{aspektis} terure, terure, terure malproksime.
 
-“Oh,” said Harry. “Um..” He organized his thoughts. “To understand everything important there is to know about the universe, apply that knowledge to become omnipotent, and use that power to rewrite reality because I have some objections to the way it works now.”
+Harry daŭris viŝi siajn okulojn, ankoraŭ kaj ankoraŭ.
 
-There was a slight pause.
+``Kelkfoje,'' Profesoro Ciuro diris per voĉo tiel kvieta ke ĝi preskaŭ
+ne estis tie, ``kiam tiu ĉi difekta mondo ŝajnas nekutime malaminda,
+mi demandas al mi, se povas esti iu alia loko, tre malproksime, kie mi
+devintus esti. Mi ne ŝajnas povi imagi ke tiu ĉi loko povas ekzisti,
+kaj se mi ne eĉ povas imagi ĝin, tial kiel mi povas kredi ke ĝi
+ekzistas? Kaj tamen, la universo ests tre, tre larĝa, kaj eble ke ĝi
+estas malgraŭ ĉio?  Sed la steloj estas tiel malproksime, ĝi prenos
+longan, longan tempon por alveni tie, eĉ se mi konus la vojon. Kaj mi
+scivolas pri kio mi sonĝos, se mi dormus dum longan, longan
+tempo\ldots''
 
-“Forgive me if this is a stupid question, Mr~Potter,” said Professor Quirrell, “but are you \emph{sure} you did not just confess to wanting to be a Dark Lord?”
+Kvankam tio sonis kiel sakrilegio, Harry sukcesis murmuri. ``Bonvolu
+lasu min resti tie dum momento.''
 
-“That’s only if you use your power for evil,” explained Harry. “If you use the power for good, you’re a Light Lord.”
+Profesoro Ciuro kapjesis, de kie li staris sensubtene kontraŭ la
+steloj.
 
-“I see,” Professor Quirrell said. He tapped his other cheek with a finger. “I suppose I can work with that. But Mr~Potter, while the scope of your ambition is worthy of Salazar himself, how exactly do you propose to go about it? Is step one to become a great fighting wizard, or Head Unspeakable, or Minister of Magic, or—”
+Tio estis facila forgesi la etan cirklon el marmoro sur kiu, vi staris
+kaj via propra korpo, kaj iĝi punkto de konscio kiu eble povis esti
+senmove, aŭ povus esti move. Kun ĉiuj nekalkuleblaj distancoj, estis
+neniu maniero por diri.
 
-“Step one is to become a scientist.”
+Estis tempo de ne tempo.
 
-Professor Quirrell was looking at Harry as if he’d just turned into a cat.
+Kaj poste la steloj malaperis, kaj la klasĉambro revenis.
 
-“A scientist,” Professor Quirrell said after a while.
+``Mi bedaŭras,'' diris Profesoro Ciuro, ``sed ne estas havonta viziton.''
 
-Harry nodded.
+``Tio estas bonorde,'' Harry murmuris. ``Tio sufiĉas.'' Li neniam
+forgesos tiun ĉi tagon, kaj ne pro la negravaj aĵoj kiuj okazis pli
+frue. Li lernos kiel ĵeti tiun sorĉon eĉ se tio estis la lasta aĵo,
+kiun li lernos.
 
-“A \emph{scientist?}” repeated Professor Quirrell.
+Tiam la peza pordo el kverko de la klasĉambro eksplodis el lia ĉarniro
+kaj glitis sur la marmora planko kun tre laŭta bruo.
 
-“Yes,” Harry said. “I shall achieve my objectives through the power…of \emph{Science!}”
+``\emph{CIRINUS! KIEL VI AŬDACAS!}''
 
-“A \emph{scientist!}” said Professor Quirrell. There was genuine indignation on his face, and his voice had grown stronger and sharper. “You could be the best of all my students! The greatest fighting wizard to come out of Hogwarts in five decades! I cannot picture you wasting your days in a white lab coat doing pointless things to rats!”
+Kiel granda ŝtorma nubo, maljuna kaj potenca sorĉisto ekpenetris la
+ĉambron, kun aspekto de tiel inkadeska kolero sur la vizaĝo, ke la
+severa rigardo kiun Harry vidis pli frue ŝajnis kiel nenio kompare.
 
-“Hey!” said Harry. “There’s more to science than that! Not that there’s anything \emph{wrong} with experimenting on rats, of course. But science \emph{is} how you go about understanding and controlling the universe—”
+Estis malorientiganta ŝlosilo en la menso de Harry turnigante parton
+de li en lokon, kiu povis elporti la ŝokon, dum alia parto de li volis
+kriante forkuri la plej timiganta aĵon, kiun li iam ajn vidis.
 
-“Fool,” said Professor Quirrell, in a voice of quiet, bitter intensity. “You’re a fool, Harry Potter.” He passed a hand over his face, and when that hand had passed, his face was calmer. “Or more likely you have not yet found your true ambition. May I strongly recommend that you try to become a Dark Lord instead? I will do anything I can to help as a matter of public service.”
+Neniuj partoj de Harry estis feliĉaj pri ke iliaj rigardoj de steloj
+estis fininta. ``Direktoro Albus Percival—'' Harry komencis diris je
+malvarma voĉo.
 
-“You don’t like science,” Harry said slowly. “Why not?”
+\emph{BUM}. La mano de Profesoro Ciuro forte frapis la
+skribotablo. ``\emph{S-ro Potter!}'' bojis Profesoro Ciuro. ``Tiu
+estas la \emph{Direktoro de Herpŭrko} kaj vi estas ordinara studento!
+Vi parolos al li konvene!''
 
-“Those fool Muggles will kill us all some day!” Professor Quirrell’s voice had grown louder. “They will end it! End all of it!”
+Harry rigardis Profesoron Ciuro.
 
-Harry was feeling a bit lost here. “What are we talking about here, nuclear weapons?”
+Profesoro Ciuro estis donanta al Harry severan rigardon.
 
-“\emph{Yes}, nuclear weapons!” Professor Quirrell was almost shouting now. “Even He-Who-Must-Not-Be-Named never used those, perhaps because he didn’t want to rule over a heap of ash! They never should have been made! And it will only get worse with time!” Professor Quirrell was standing up straight instead of leaning on his desk. “There are gates you do not open, there are seals you do not breach! The fools who can’t resist meddling are killed by the lesser perils early on, and the survivors all know that there are secrets you \emph{do not share} with anyone who lacks the intelligence and the discipline to discover them for themselves! Every powerful wizard knows that! Even the most terrible Dark Wizards know that! And those idiot Muggles can’t seem to figure it out! The eager little fools who discovered the secret of nuclear weapons didn’t keep it to themselves, they told their \emph{fool} politicians and now \emph{we} must live under the constant threat of annihilation!”
+Neniu el ili ridetis.
 
-This was a rather different way of looking at things than Harry had grown up with. It had never occurred to him that nuclear physicists should have formed a conspiracy of silence to keep the secret of nuclear weapons from anyone not smart enough to be a nuclear physicist. The thought was intriguing, if nothing else. Would they have had secret passwords? Would they have had masks?
+La longaj paŝoj de Dumbledore hatlis antaŭ li atingis tien, kie Harry
+staris antaŭ la podio kaj Profesoro Ciuro staris apud sia
+skribotablo. La Direktoro fikserigardis ambaŭ ilin ŝokite.
 
-(Actually, for all Harry knew, there \emph{were} all sorts of incredibly destructive secrets which physicists kept to themselves, and the secret of nuclear weapons was the only one that had escaped into the wild. The world would look the same to him either way.)
+``Mi bedaŭras,'' Harry diris per humiligita tono
+bonmaniera. ``Direktoro, dankon por voli protekti min, sed Profesoro
+Ciuro faris la bonan aĵon.''
 
-“I’ll have to think about that,” Harry said to Professor Quirrell. “It’s a new idea to me. And one of the \emph{hidden} secrets of science, passed down from a few rare teachers to their grad students, is how to avoid flushing new ideas down the toilet the instant you hear one you don’t like.”
+Malrapide, la esprimo de Dumbledore ŝanĝiĝis de io, kio povis vaporigi
+ŝtalon, en ion simple kolera. ``Mi aŭdis studentojn diri ke tiu ĉi
+viro farigis pli maljunajn Serpentimojn mistraktis vin! Ke li
+malpermesis vin defendi vin mem!''
 
-Professor Quirrell blinked again.
+Harry kapjesis. ``Li sciis ekzakte tion, kio estas malbona kun mi kaj
+li montris al mi kiel ripari ĝin.''
 
-“Is there any sort of science you \emph{do} approve of?” said Harry. “Medicine, maybe?”
+``Harry, \emph{pri kio vi estas parolanta?}''
 
-“Space travel,” said Professor Quirrell. “But the Muggles seem to be dragging their feet on the one project which might have let wizardkind escape this planet before they blow it up.”
+``Mi lernis al li kiel perdi,'' Profesoro Ciuro diris seke. ``Tiu estas vivgrava kompetento.''
 
-Harry nodded. “I’m a big fan of the space programme too. At least we have that much in common.”
+Estis videbla ke Dumbledore ankoraŭ ne komprenis, sed lia voĉo estis
+pli kvieta. ``Harry\ldots'' li diris malrapide. ``Se estas ia ajn
+minaco, kiun la Profesoro de Defenco faris por malhelpi vin plendi—''
 
-Professor Quirrell looked at Harry. Something flickered in the professor’s eyes. “I will have your word, your promise and your oath never to speak of what follows.”
+\emph{Vi lunatiko, post hodiaŭ inter ĉiuj tagoj, ĉu vi vere pensas ke mi—}
 
-“You have it,” Harry said immediately.
+``Direktoro,'' Harry diris, provante aspekti embarasita, ``tio kio
+estas malbona kun mi, ne estas ke mi restas kvieta pri ofendaj
+instruistoj.''
 
-“See to it that you keep your oath or you will not like the results,” said Professor Quirrell. “I will now cast a rare and powerful spell, not on you, but on the classroom around us. Stand still, so that you do not touch the boundaries of the spell once it has been cast. You must not interact with the magic which I am maintaining. Look only. Otherwise I will end the spell.” Professor Quirrell paused. “And try not to fall over.”
+Profesoro Ciuro subridis. ``Ne perfekte, S-ro Potter, sed sufiĉe bone
+por via unua tago. Direktoro, ĉu vi restis sufiĉe da tempo por aŭdi
+pri la kvindek unu poentoj por Korvungo, aŭ ĉu vi rapidiĝis tuj ekde
+vi aŭdis la unuan parton?''
 
-Harry nodded, puzzled and anticipatory.
+Rapida esprimo de konfuzo pasis trans la vizaĝo de Dumbledore, sekvita
+per surpizo. ``Kvindek unu poentoj por Korvungo?''
 
-Professor Quirrell raised his wand and said something that Harry’s ears and mind couldn’t grasp at all, words that bypassed awareness and vanished into oblivion.
+Profesoro Ciuro kapjesis. ``Li ne atendis ilin, sed tio ŝajnis
+konvena. Diru al Profesorino McGonagall ke mi pensas ke la afero trans
+kiu S-ro Potter ĵus pasis, por regajni la perditajn poentojn, sufiĉe
+konvenos por ke ŝi akceptas. Ne, Direktoro, S-ro Potter ne diris iun
+ajn al mi. Estas facila vidi kiun parton de la eventoj de tiu ĉi tago
+estas ŝia laboro, ekzakte kiel mi scias ke la fina kompromiso estis de
+via propra sugesto. Tamen, mi min demandas, kiel sur la Tero, S-ro
+Potter kapablis gajni superecon sur ambaŭ vi kaj Skoldo kaj poste kiel
+Profesorino McGonagall kapablis gajni superecon sur li.''
 
-The marble in a short radius around Harry’s feet stayed constant. All the other marble of the floor vanished, the walls and ceilings vanished.
+Iel Harry sukcesis kontroli sian vizaĝon. Ĉu tio estis tiel evidenta
+por vera Serpentimo?
 
-Harry stood on a small circle of white marble in the midst of an endless field of stars, burning terribly bright and unwavering. There was no Earth, no Moon, no Sun that Harry recognized. Professor Quirrell stood in the same place as before, floating in the midst of the star-field. The Milky Way was already visible as a great wash of light and it grew brighter as Harry’s vision adjusted to the darkness.
+Dumbledore venis pli proksime al Harry, ekzamene. ``Via koloro
+aspektas iom pala, Harry,'' la maljuna sorĉisto diris. fikse rigardis
+proksime la vizaĝon de Harry. ``Kion vi havis por hodiaŭ tagmanĝo?''
 
-The sight wrenched at Harry’s heart like nothing he had ever seen.
 
-“Are we…in space…?”
+``Kio?'' Harry diris, sia menso ŝanceliĝante en subitan konfuzon. Kial
+Dumbledore farus demandon pri frititaj ŝafidaĵoj kaj mallarĝaj tranĉoj
+de brokolo, kiam tio estis nur la pli malverŝajna kaŭzo de—
 
-“No,” said Professor Quirrell. His voice was sad, and reverent. “But it is a true image.”
 
-Tears came into Harry’s eyes. He wiped them away frantically, he would not miss this for some stupid water blurring his vision.
+La maljuna sorĉisto rektiĝis. ``Tio ne gravas, mi pensas ke vi fartas bone.''
 
-The stars were no longer tiny jewels set in a giant velvet dome, as they were in the night sky of Earth. Here there was no sky above, no surrounding sphere. Only points of perfect light against perfect blackness, an infinite and empty void with countless tiny holes through which shone the brilliance from some unimaginable realm beyond.
+Profesoro Ciuro tusis, laŭte kaj intence. Harry rigardis al la
+Profesoro, kaj vidis ke Profesoro Ciuro estis rigardanta akre
+Dumbledore'n.
 
-In space, the stars \emph{looked} terribly, terribly, terribly far away.
+``\emph{Ah-hem!}'' Profesoro Ciuro diris denove.
 
-Harry kept on wiping his eyes, over and over.
+Dumbledore kaj Profesoro Ciuro rigardis unu la alian en la okuloj, kaj io ŝajnis pasi inter ili.
 
-“Sometimes,” Professor Quirrell said in a voice so quiet it almost wasn’t there, “when this flawed world seems unusually hateful, I wonder whether there might be some other place, far away, where I should have been. I cannot seem to imagine what that place might be, and if I can’t even imagine it then how can I believe it exists? And yet the universe is so very, very wide, and perhaps it might exist anyway? But the stars are so very, very far away. It would take a long, long time to get there, even if I knew the way. And I wonder what I would dream about, if I slept for a long, long time…”
+``Se tion vi ne diros al li,'' Profesoro Ciuro tiam diris, ``Mi tion faros, eĉ se vi maldungas min pro tio.''
 
-Though it felt like sacrilege, Harry managed a whisper. “Please let me stay here awhile.”
+Dumbledore suspiris kaj turniĝis al Harry. ``Mi pardonpetas por invadi
+vian mensan privatecon, S-ro Potter,'' la Direktoro diris
+formale. ``Mi ne havis celon, krom determini se Profesoro Ciuro faris
+same antaŭe.''
 
-Professor Quirrell nodded, where he stood unsupported against the stars.
+\emph{Kio?}
 
-It was easy to forget the small circle of marble on which you stood, and your own body, and become a point of awareness which might have been still, or might have been moving. With all distances incalculable there was no way to tell.
+La konfuzo restis ekzakte same longe kiel ĝi prenis al Harry por
+kompreni tion, kio ĵus okazis.
 
-There was a time of no time.
+``\emph{Vi—!}''
 
-And then the stars vanished, and the classroom returned.
+``Afable, S-ro Potter,'' diris Profesoro Ciuro. Lia vizaĝo estis
+severa, sed li estis rigardanta Dumbledore'n.
 
-“I’m sorry,” said Professor Quirrell, “but we’re about to have company.”
+``Legilimencio estas kelkfoje maldinstingita disde kumona saĝo,''
+diris la Direktoro. ``Sed ĝi lasas postsignojn, kiujn alia potenca
+Legilimenanto povas detekti. Ĝi estis tio, kion mi estis serĉanta,
+S-ro Potter, kaj mi faris nerilatan demandon por certigi ke vi ne
+pensis pri iu ajn grava aĵo dum mi rigardis.''
 
-“It’s fine,” Harry whispered. “It was enough.” He would never forget this day, and not because of the unimportant things that had happened earlier. He would learn how to cast that spell if it was the last thing he ever learned.
+``\emph{Vi devintus demandi al mi unue!}''
 
-Then the heavy oaken doors of the classroom blasted off their hinges and skittered across the marble floor with a high-pitched shriek.
+Profesoro Ciuro balancis la kapon. ``Ne, S-ro Potter, la Direktoro
+havis iun motivadon por liaj zorgoj, kaj se li havintus peti vian
+permeson, vi estus pensanta pri ekzakte tiuj aĵoj, kiujn vi ne dezirus
+lin por scii.'' La voĉo de Profesoro Ciuro kreskis iom pli akra. ``Mi
+estis relative pli malkvieta, Direktoro, pro ke vi ne vidis bezonon
+por al li diri ĝin poste!''
 
-“\shout{Quirinus! How dare you!}”
+``Vi farigis pli mafacila konfirmi sian mensan privatecon je estontaj
+okazoj,'' Dumbledore diris. Li ĵetis malvarman rigardon al Profesoro
+Ciuro. ``Ĉu tio estis intenca, mi pri tio min demandas?''
 
-Like a vast thundercloud, an ancient and powerful wizard blew into the room, a look of such incandescent rage upon his face that the stern look he had earlier turned upon Harry seemed like nothing.
+La esprimo de Profesoro Ciuro daŭris malkompatema. ``Estas tro da
+Legilimenantoj en tiu ĉi lernejo. Mi insistas ke S-ro Potter ricevu
+instruadon de Oklumencio. Ĉu vi permesos min esti lian instruiston?''
 
-There was a wrench of disorientation in Harry’s mind as the part that wanted to run away screaming from the scariest thing it had ever seen ran away, rotating into place a part of him which could take the shock.
+``Absolute ne,'' Dumbledore diris direkte.
 
-\emph{None} of Harry’s facets were happy about having their star-gazing interrupted. “Headmaster Albus Percival—” Harry started to say in icy tones.
+``Mi ne pensis ke vi akceptos.  Do pro ke vi senhavigis lin je mia
+senkosta servado, vi pagos la instruiadon de S-ro Potter, disdonita
+per agnositka instruisto de Oklumencio.''
 
-\emph{Wham.} Professor Quirrell’s hand came down hard upon his desk. “\emph{Mr~Potter!}” barked Professor Quirrell. “This is the \emph{Headmaster of Hogwarts} and you are a mere student! You will address him appropriately!”
+``Tiaj servadoj ne estas malmulte kostaj,'' Dumbledore diris,
+rigardante Profesoro'n Ciuro, kelke surprizita. ``Tamen, mi konas
+kelkajn homoj, kiuj povas—''
 
-Harry looked at Professor Quirrell.
+Profesoro Ciuro kapneis firme. ``Ne, S-ro Potter petos al la
+respondeculo de sia bankokonto je Gringoto, ke al li rekomendas
+neŭtralan instruiston. Kun respekto, Direktoro Dumbledore, post la
+eventoj de ĉi tiu mateno, mi devas protesti kontraŭ la ebleco ke vi aŭ
+viaj amikoj povas atingi la mensojn de S-ro Potter. Mi devas ankaŭ
+instisti, ke tiu ĉi instruisto faru Nerompeblan Voton pri ne riveli
+iun ajn, kaj ke li konsentu esti Forgesigita je ĉiuj seancoj tuj
+poste.''
 
-Professor Quirrell was giving Harry a stern glare.
+Dumbledore estis malridetanta. ``Tiaj servadoj estas ege malmulte
+kostaj, kiel vi scias, kaj mi ne povas malhelpi min scivoli kial
+\emph{vi} opinias ke ili estas necesaj.''
 
-Neither of them smiled.
+``Se la mono estas la problemo,'' Harry diris laŭte, ``Mi havas
+kelkajn ideojn por fari grandaj kvantoj da mono rapide—''
 
-Dumbledore’s long strides had come to a halt before where Harry stood in front of the dais and Professor Quirrell stood by his desk. The Headmaster stared in shock at both of them.
+``Dankon al vi Cirinus, via saĝeco estas nun tute evidenta kaj mi
+bedaŭras pri kontesti ĝin. Viaj zorgoj pri Harry, ankaŭ honoras vin.''
 
-“I’m sorry,” Harry said in meekly polite tones. “Headmaster, thank you for wanting to protect me, but Professor Quirrell did the right thing.”
+``Nedankinde,'' diris Profesoro Ciuro. ``Mi esperas ke ne havos iun
+ajn protestoj, se mi donas al li atenton tute particularan.'' La
+vizaĝo de Profesoro Ciuro estis nun tre serioza kaj tre senmova.
 
-Slowly, Dumbledore’s expression changed from something that would vaporize steel into something merely angry. “I heard students saying that this man had you abused by older Slytherins! That he forbade you to defend yourself!”
+Dumbledore rigardis Harry'n.
 
-Harry nodded. “He knew exactly what was wrong with me and he showed me how to fix it.”
+``Tio estas egale mia volo,'' Harry diris.
 
-“Harry, \emph{what are you talking about?}”
+``Do tiel tio estos\ldots'' la maljuna sorĉisto diris. Io stranga
+pasis trans lia vizaĝo. ``Harry\ldots vi devas kompreni ke se vi
+elektas tiun viron kiel via instruisto kaj kiel via amiko, via unua
+mentoro, tiam laŭ iu maniero aŭ alia, vi perdos lin, kaj la maniero
+per kiu vi perdos lin, povas aŭ ne povas permesi vin retrovi lin
+denove.''
 
-“I was teaching him how to lose,” Professor Quirrell said dryly. “It’s an important life skill.”
+Tio ne aperintis al Harry. Sed estis malfeliĉo sur la ofico de
+Profesoro de Defenco\ldots iu kiu verŝajne funkciis kun perfekta
+reguleco dum jardekoj\ldots
 
-It was apparent that Dumbledore still didn’t understand, but his voice had lowered in register. “Harry…” he said slowly. “If there’s any threat the Defence Professor has offered you to prevent you from complaining—”
+``Probable,'' diris Profesoro Ciuro mallaŭte, ``sed mi restos je sia
+tuta dispono dum mi vivtenas min.''
 
-\emph{You lunatic, after today of all days do you really think I—}
+Dumbledore suspiris. ``Mi supozas ke tio estas ŝparema, almenaŭ, pro
+tio ke kiel Profesoro de Defenco vi estas \emph{jam} kondamnita je ia
+nekonata maniero.''
 
-“Headmaster,” Harry said, trying to look abashed, “what’s wrong with me isn’t that I keep quiet about abusive professors.”
+Harry devis labori malfacile por devigi sian vizaĝon daŭri senesprime,
+kiam li konsciis tion, kion Dumbledore estis reale implicanta.
 
-Professor Quirrell chuckled. “Not perfect, Mr~Potter, but good enough for your first day. Headmaster, did you stay long enough to hear about the fifty-one points for Ravenclaw, or did you storm out as soon as you heard the first part?”
+``Mi informos al S-ino Pinĉo ke S-o Potter estas permesita akiri librojn pri Oklumencio,'' diris Dumbledore.
 
-A brief look of disconcertion crossed Dumbledore’s face, followed by surprise. “Fifty-one points for Ravenclaw?”
+``Estas antaŭprepara trejnado, kiun vi devas fari sole per vi mem,''
+diris Profesoro Ciuro al Harry. ``Kaj mi sugestas ke vi ekrapidu kaj
+faru ĝin.''
 
-Professor Quirrell nodded. “He wasn’t expecting them, but it seemed appropriate. Tell Professor McGonagall that I think the story of what Mr~Potter went through to earn back the lost points will do just as well to make her point. No, Headmaster, Mr~Potter didn’t tell me anything. It’s easy to see which part of today’s events are her work, just as I know that the final compromise was your own suggestion. Though I wonder how on Earth Mr~Potter was able to gain the upper hand over both Snape and you and then Professor McGonagall was able to gain the upper hand over him.”
+Harry kapjesis.
 
-Somehow Harry managed to control his face. Was it \emph{that} obvious to a real Slytherin?
+``Mi estas lasonta vin, tiam,'' diris Dumbledore. Li balancis la kapon
+je la direkto de ambaŭ Harry kaj Profesoro Ciuro kaj foriris, marĉante
+iom malrapide.
 
-Dumbledore came closer to Harry, scrutinizing. “Your colour looks a little off, Harry,” the old wizard said. He peered closely at Harry’s face. “What did you have for lunch today?”
+``Ĉu vi povas ĵeti la sorĉon denove?'' Harry diris ĵus post ol
+Dumbledore estis foririnta.
 
-“What?” Harry said, his mind wobbling in sudden confusion. Why would Dumbledore be asking about deep-fried lamb and thin-sliced broccoli when that was just about the \emph{last} probable cause of—
+``Ne hodiaŭ,'' diris Profesoro Ciuro kviete, ``kaj ankaŭ ne morgaŭ, mi
+tion timas. Ĝi lacigas multe por esti ĵetita, tamen malpli por daŭri,
+do kutime mi preferas subteni ĝin kiel eble plej longe. Tiufoje mi
+ĵetis ĝin pro la momenta impulso. Mi devintus pensi, kaj konscii ke ni
+povis estis interrompita—''
 
-The old wizard straightened up. “Never mind, then. I think you’re fine.”
+Dumbledore estis nun la malpli preferata persono de Harry en la tuta mondo.
 
-Professor Quirrell coughed, loudly and deliberately. Harry looked at the professor, and saw that Professor Quirrell was staring sharply at Dumbledore.
+Ili ambaŭ suspiris.
 
-“\emph{Ah-hem!}” Professor Quirrell said again.
+``Eĉ se tio estis la sola fojo, mi vidus ĝin,'' Harry diris, ``mi neniam haltos esti dankema al vi.''
 
-Dumbledore and Professor Quirrell locked eyes, and something seemed to pass between them.
+Profesoro Ciuro kapjesis.
 
-“If you don’t tell him,” Professor Quirrell said then, “I will, even if you fire me for it.”
+``Ĉu vi aŭdis pri la Pioniro programo?'' Harry diris. ``Estis sondoj,
+kiuj flugis al malsamaj planedoj kaj prenis fotojn. Du el la sondoj
+finis per iri laŭ trajektorioj, kiuj gvidis ilin el la Suna Sistemo
+kaj en la interstelan spacon. Do, ili metis oran ŝildon sur la sondoj,
+kun bildo de viro, kaj de virino kaj montris kie trovi nian Sunon en
+la galaksio.''
 
-Dumbledore sighed and turned back to Harry. “I apologize for invading your mental privacy, Mr~Potter,” the Headmaster said formally. “I had no purpose except to determine if Professor Quirrell had done the same.”
+Profesoro Ciuro daŭris silento dum momento, kaj poste ridetis. ``Diru
+al mi, S-ro Potter, ĉu vi povas diveni tiun penson, kiu pasis trans
+mia menso kiam mi finis krei la tridek sep aĵojn de mia listo de
+aĵoj, kiujn mi neniam devus fari kiel Mastro de la Tenebroj? Metu vin
+mem en miaj ŝuoj—imagu vin mem je mia loko—kaj divenu.'' 
 
-\emph{What?}
+Harry imagis sin mem rigardanta la liston de tridek sep aĵojn kiujn vi
+ne devas fari unufoje kiam vi fariĝis Mastro de la Tenebroj.
 
-The confusion lasted just exactly as long as it took Harry to understand what had just happened.
+``Vi decidis ke se vi devis sekvi la \emph{tutan} liston ĉiam
+ĉiaokaze, tiam ne estis vera utileco por fariĝi Mastro de la
+Tenebroj,'' Harry diris.
 
-“\emph{You—!}”
 
-“Gently, Mr~Potter,” said Professor Quirrell. His face was hard, however, as he stared at Dumbledore.
+``*Precize*,'' diris Profesoro Ciuro. Li estis ridete grimacanta. ``Do
+mi malrespektos la regulon nombro du—kiu estis simple 'ne
+fanfaronu'—kaj diri al vi pri io, kion mi faris. Mi ne vidas kiel la
+kono povas fari iun ajn damaĝon. Kaj mi forte suspektas ke vi
+malkovros ĝin ĉiaokaze, unufoje kiam oni konos unu la alian
+sufiĉe. Malgraŭe\ldots mi devas havi vian ĵuron ke vi neniam parolos
+pri tio, kion mi estas dironta.''
 
-“Legilimency is sometimes mistaken for common sense,” said the Headmaster. “But it leaves traces which another skilful Legilimens can detect. That was all I looked for, Mr~Potter, and I asked you an irrelevant question to ensure you wouldn’t think about anything important while I looked.”
+``Vi havas ĝin!'' Harry havis la senton, ke tio estis estonta nekredeble bone.
 
-“\emph{You should have asked first!}”
+``Mi abonis Muglan bultenon, kiu gardis min informata pri la progreso
+de Spaca Vojaĝo. Mi ne aŭdis pri Pioniro 10 ĝis ili raportis ĝian
+lanĉon. Sed kiam mi malkovris ke Pioniro 11 ankaŭ foriros la Sunon
+Sistemon eterne,'' Profesoro Ciuro diris, lia rideto kreskis al la
+plej larĝa, kiun Harry iam vidis sur lia vizaĝo, ``mi ŝteliris NASA'n,
+jes mi faris tion, kaj mi ĵetis etan sorĉon sur tiu amata ora ŝildo, kiu
+farigos ĝin daŭri multe pli longe ol ĝi estintus alie.''
 
-Professor Quirrell shook his head. “No, Mr~Potter, the Headmaster had some justification for his concerns, and had he asked for permission you would have thought of exactly those things you did not wish him to see.” Professor Quirrell’s voice grew sharper. “I am rather more concerned, Headmaster, that you saw no need to tell him afterwards!”
+\ldots
 
-“You have now made it more difficult to confirm his mental privacy on future occasions,” Dumbledore said. He favoured Professor Quirrell with a cold look. “Was that your intention, I wonder?”
+\ldots
 
-Professor Quirrell’s expression was implacable. “There are too many Legilimens in this school. I insist that Mr~Potter receive instruction in Occlumency. Will you permit me to be his tutor?”
+\ldots
 
-“Absolutely not,” Dumbledore said at once.
+``Jes,'' Profesoro Ciuro diris, kiu nun ŝajnis iĝinta ĉirkaŭ kvindek
+piedojn pli alta, ``Mi antaŭpensis ke vi reagos tiel.''
 
-“I did not think so. Then since \emph{you} have deprived him of my free services, \emph{you} will pay for Mr~Potter’s tutoring by a licensed Occlumency instructor.”
+\ldots
 
-“Such services do not come cheaply,” Dumbledore said, looking at Professor Quirrell in some surprise. “Although I do have certain connections—”
+\ldots
 
-Professor Quirrell shook his head firmly. “No. Mr~Potter will ask his account manager at Gringotts to recommend a neutral instructor. With respect, Headmaster Dumbledore, after the events of this morning I must protest you or your friends having access to Mr~Potter’s mind. I must also insist that the instructor have taken an Unbreakable Vow to reveal nothing, and that he agree to be Obliviated of each session immediately afterwards.”
+\ldots
 
-Dumbledore was frowning. “Such services are \emph{extremely} expensive, as you well know, and I cannot help but wonder why \emph{you} deem them necessary.”
+``S-ro Potter?''
 
-“If it’s money that’s the problem,” Harry spoke up, “I have some ideas for making large amounts of money quickly—”
+``\ldots Mi ne povas pensi pri io ajn por diri.''
 
-“Thank you Quirinus, your wisdom is now quite evident and I am sorry for disputing it. Your concern for Harry Potter does you credit, as well.”
+``'Vi gajnas' ŝajnas adekvata,'' diris Profesoro Ciuro.
 
-“You’re welcome,” said Professor Quirrell. “I hope you will not object if I go on making him a particular focus of my attentions.” Professor Quirrell’s face was now very serious, and very still.
+``Vi gajnas,'' Harry diris tuj.
 
-Dumbledore looked at Harry.
+``Vidu?'' diris Profesoro Ciuro. ``Ni povas nur imagi tiun gigantan
+amason de problemoj, kiun vi povintus akiri se vi ne sukcesintus diri
+tion.''
 
-“It is my own wish also,” Harry said.
+Ili ambaŭ ridis.
 
-“So that’s how it is to be…” the old wizard said slowly. Something strange passed across his face. “Harry…you must realize that if you choose this man as your teacher and your friend, your first mentor, then one way or another you will lose him, and the manner in which you lose him may or may not allow you to ever get him back.”
+Alia penso aperis al Harry. ``Vi ne aldonis iun ekstran informon al la
+ŝildo, ĉu ne?''
 
-That hadn’t occurred to Harry. But there \emph{was} that jinx on the Defence position…one which had apparently worked with perfect regularity for decades…
+``Ekstra informo?'' diris Profesoro Ciuro, sonante kiel se la ideo
+neniam aperis al li antaŭ kaj ke tio tute interesis lin.
 
-“Probably,” said Professor Quirrell quietly, “but he will have the full use of me while I last.”
+Tio farigis Harry'n iom suspekta, kiam oni konsideris ke tio prenis
+malpli ol unu minuto por ke \emph{Harry} pensis pri tio.
 
-Dumbledore sighed. “I suppose it is economical, at least, since as the Defence Professor you’re \emph{already} doomed in some unknown fashion.”
+``Eble vi aldonis holografian mesaĝon kiel en \emph{Star Wars?}''
+diris Harry. ``Aŭ\ldots mm. Portreto ŝajnas povi stoki la saman
+kvanton da informoj ol tuta cerbo de iu homo\ldots vi ne povis aldoni
+iun ajn ekstran pezon al la sondo, sed eble vi povintus ŝanĝigi
+antaŭekzistan parton en portreton de vi mem? Aŭ vi trovis volontulon
+mortantan pro definitiva malsano, ŝtelirigis rin en NASA'n, kaj ĵetis
+sorĉon por certigi ke ria fantomo finis en la ŝildon—''
 
-Harry had to work hard to suppress his expression as he realized what Dumbledore had actually been implying.
+``S-ro Potter,'' Profesoro Ciuro diris, sia voĉo subite akra, ``sorĉo
+necesiganta homan morton estus certe klasifikata per la Ministerio kiel
+Malhela Arto, senkonsidere la cirkonstancoj. Studentoj ne devus
+esti aŭdita parolante pri tiaj aĵoj.''
 
-“I will inform Madam Pince that Mr~Potter is allowed to obtain books on Occlumency,” said Dumbledore.
+Kaj la mirinda aĵo pri la maniero per kiu Profesoro Ciuro diris tion,
+estis kiel perfekte ĝi daŭrigis kredindan malkonfeson. Ĝi estis dirita
+per la ekzakte konvena tono por iu, kiu ne estis volonta diskuti tiajn
+aĵojn kaj pensis ke studentoj devus stiriĝi for de ili. Harry honeste
+\emph{ne sciis} se Profesoro Ciuro estis nur atendante paroli pri tio
+post kiam Harry estos lerninta protekti siajn mensojn.
 
-“There is preliminary training which you must do on your own,” said Professor Quirrell to Harry. “And I do suggest that you hurry up on it.”
+``Konsentite,'' Harry diris. ``Mi ne parolos pri tiu ideo al iu ajn alia.''
 
-Harry nodded.
+``Bonvolu estu diskreta pri la tuta afero, S-ro Potter,'' Profesoro
+Ciuro diris. ``Mi preferas vivi mian vivon se altiri publikan
+atenton. Vi ne trovos ion ajn en la ĵurnaloj pri Cirinus Ciuro ĝis mi
+decidis ke estis la bona momento por instrui Defencon ĉe Herpŭrko.''
 
-“I’ll take my leave of you then,” said Dumbledore. He nodded to both Harry and Professor Quirrell, and departed, walking a bit slowly.
 
-“Can you cast the spell again?” Harry said the moment Dumbledore was gone.
+Tio ŝajnis iomete malgaja, sed Harry komprenis. Kaj poste Harry
+komprenis la implikojn. ``Do kiom da aliaj nekredeblaj aĵoj vi estas
+farinta, pri kiuj neniu iam ajn aŭdis eĉ ion ajn—'' 
 
-“Not today,” said Professor Quirrell quietly, “and not tomorrow either, I’m afraid. It takes a lot out of me to cast, though less to keep going, and so I usually prefer to maintain it as long as possible. This time I cast it on impulse. Had I thought, and realized we might be interrupted—”
+``Oh, kelkaj,'' diris Profesoro Ciuro. ``Sed mi pensas ke tio estas
+tute sufiĉa por hodiaŭ, S-ro Potter, mi konfesas ke mi sentas min iom
+laca—''
 
-Dumbledore was now Harry’s least favourite person in the entire world.
+``Mi komprenas. Kaj dankon al vi. Por ĉio.''
 
-They both sighed.
+Profesoro Ciuro kapjesis, sed li estis kliniĝanta pli forte sur sia skribotablo.
 
-“Even if I only ever see it once,” Harry said, “I will never stop being grateful to you.”
+Harry rapide foriris.
 
-Professor Quirrell nodded.
 
-“Have you heard of the Pioneer programme?” Harry said. “They were probes that would fly by different planets and take pictures. Two of the probes would end up on trajectories that took them out of the Solar System and into interstellar space. So they put a golden plaque on the probes, with a picture of a man, and a woman, and showing where to find our Sun in the galaxy.”
 
-Professor Quirrell was silent for a moment, then smiled. “Tell me, Mr~Potter, can you guess what thought went through my mind when I finished assembling the thirty-seven items on the list of things I would never do as a Dark Lord? Put yourself in my shoes—imagine yourself in my place—and guess.”
-
-Harry imagined himself looking over a list of thirty-seven things not to do once he became a Dark Lord.
-
-“You decided that if you had to follow the \emph{whole} list \emph{all} the time, there wouldn’t be much point in becoming a Dark Lord in the first place,” Harry said.
-
-“\emph{Precisely},” said Professor Quirrell. He was grinning. “So I am going to violate rule two—which was simply ‘don’t brag’—and tell you about something I have done. I don’t see how the knowledge could do any harm. And I strongly suspect you would have figured it out anyway, once we knew each other well enough. Nonetheless…I shall have your oath never to speak of what I am about to tell.”
-
-“You have it!” Harry had a feeling this was going to be \emph{really} good.
-
-“I subscribe to a Muggle bulletin which keeps me informed of progress on space travel. I didn’t hear about Pioneer 10 until they reported its launch. But when I discovered that Pioneer 11 would also be leaving the Solar System forever,” Professor Quirrell said, his grin the widest that Harry had yet seen from him, “I sneaked into NASA, I did, and I cast a lovely little spell on that lovely golden plaque which will make it last a lot longer than it otherwise would.”
-
-…
-
-…
-
-…
-
-“Yes,” Professor Quirrell said, who now seemed to be standing around fifty feet taller, “I thought that was how you might react.”
-
-…
-
-…
-
-…
-
-“Mr~Potter?”
-
-“…I can’t think of anything to say.”
-
-“{}‘You win’ seems appropriate,” said Professor Quirrell.
-
-“You win,” Harry said immediately.
-
-“See?” said Professor Quirrell. “We can only imagine what giant heap of trouble you would have landed in if you had been unable to say that.”
-
-They both laughed.
-
-A further thought occurred to Harry. “You didn’t add any extra information to the plaque, did you?”
-
-“Extra information?” said Professor Quirrell, sounding as if the idea had never occurred to him before and he was quite intrigued.
-
-Which made Harry rather suspicious, considering that it’d taken less than a minute for \emph{Harry} to think of it.
-
-“Maybe you included a holographic message like in \emph{Star Wars?}” said Harry. “Or…hm. A portrait seems to store a whole human brain’s worth of information…you couldn’t have added any extra mass to the probe, but maybe you could’ve turned an existing part into a portrait of yourself? Or you found a volunteer dying of a terminal illness, sneaked them into NASA, and cast a spell to make sure their \emph{ghost} ended up in the plaque—”
-
-“Mr~Potter,” Professor Quirrell said, his voice suddenly sharp, “a spell requiring a human death would certainly be classified by the Ministry as Dark Arts, regardless of circumstances. Students should not be heard talking about such things.”
-
-And the amazing thing about the way Professor Quirrell said it was how perfectly it maintained plausible deniability. It had been said in exactly the appropriate tone for someone who wasn’t willing to discuss such things and thought students should steer away from them. Harry honestly \emph{didn’t know} whether Professor Quirrell was just waiting to talk about it until after Harry had learned to protect his mind.
-
-“Got it,” Harry said. “I won’t talk with anyone else about that idea.”
-
-“Please be discreet about the whole matter, Mr~Potter,” Professor Quirrell said. “I prefer to go through my life without attracting public notice. You will find nothing in the newspapers about Quirinus Quirrell until I decided it was time for me to teach Defence at Hogwarts.”
-
-That seemed a little sad, but Harry understood. Then Harry realized the implications. “So just how much awesome stuff \emph{have} you done that no one else knows about—”
-
-“Oh, some,” said Professor Quirrell. “But I think that’s quite enough for today, Mr~Potter, I confess I am feeling a bit tired—”
-
-“I understand. And \emph{thank you.} For \emph{everything}.”
-
-Professor Quirrell nodded, but he was leaning harder on his desk.
-
-Harry quickly took his leave.
-
-%  LocalWords:  arry

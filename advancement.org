@@ -1,0 +1,27 @@
+* Ĉapitroj : 
+
+| Numero | Finita | relegita | 2   |
+|      1 | Jes    | Jes      | Jes |
+|      2 | Jes    | Jes      | Jes |
+|      3 | Jes    | Jes      | Jes |
+|      4 | Jes    | Jes      | Jes |
+|      5 | Jes    | Jes      | Jes |
+|      6 | Jes    | Jes      | Jes |
+|      7 | Jes    | Jes      | Ne  |
+|      8 | Jes    | Jes      |     |
+|      9 | Jes    | Jes      |     |
+|     10 | Jes    | Jes      |     |
+|     11 | Jes    | Jes      |     |
+|     12 | Jes    | Ne       |     |
+|        |        |          |     |
+
+** TODO 7
+
+   ligne 1
+
+** TODO 12                                                           :relegi: 
+   DEADLINE: <2021-05-20 jeu.>
+   
+   ligne 463
+   
+   

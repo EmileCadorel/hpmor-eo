@@ -13,6 +13,8 @@
 \input{hp-header}
 
 
+
+
 % Book-specific settings
 
 %
@@ -62,7 +64,7 @@
 	
 	\renewcommand*{\printchapternum}{%
 		\chapnumfont \hyperref[contents]{\textls[30]{
-\IfInteger{\thechapter}{\NUMBERstring{chapter}}{\thechapter}
+\IfInteger{\thechapter}{\numberstringnumespup{\thechapter}}{\thechapter}
 }}}
 	
 	\renewcommand*{\printchaptername}{%

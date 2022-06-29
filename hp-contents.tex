@@ -12,7 +12,8 @@
 \renewcommand*{\cftchapterafterpnum}{\cftparfillskip}
 \renewcommand*{\cftchapterfont}{}
 
-\renewcommand\chapternumberline[1]{\hfil\thispagestyle{empty}{\hpfont\textls[30]{\IfInteger{#1}{\NUMBERstringnum{#1}}{Appendix #1}}}\hfil\strut\par\nopagebreak\hfil}
+
+\renewcommand\chapternumberline[1]{\hfil\thispagestyle{empty}{\hpfont\textls[30]{\IfInteger{#1}{\numberstringnumesp{#1}}{Appendix #1}}}\hfil\strut\par\nopagebreak\hfil}
 
 \settocdepth{chapter}
 \phantomsection

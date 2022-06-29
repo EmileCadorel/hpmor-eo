@@ -1,0 +1,34 @@
+(TeX-add-style-hook
+ "hpmor-1"
+ (lambda ()
+   (TeX-run-style-hooks
+    "hpmor-title-1"
+    "hp-intro"
+    "hp-contents"
+    "chapters/antaŭparolo"
+    "chapters/hpmor-chapter-001"
+    "chapters/hpmor-chapter-002"
+    "chapters/hpmor-chapter-003"
+    "chapters/hpmor-chapter-004"
+    "chapters/hpmor-chapter-005"
+    "chapters/hpmor-chapter-006"
+    "chapters/hpmor-chapter-007"
+    "chapters/hpmor-chapter-008"
+    "chapters/hpmor-chapter-009"
+    "chapters/hpmor-chapter-010"
+    "chapters/hpmor-chapter-011"
+    "chapters/hpmor-chapter-012"
+    "chapters/hpmor-chapter-013"
+    "chapters/hpmor-chapter-014"
+    "chapters/hpmor-chapter-015"
+    "chapters/hpmor-chapter-016"
+    "chapters/hpmor-chapter-017"
+    "chapters/hpmor-chapter-018"
+    "chapters/hpmor-chapter-019"
+    "chapters/hpmor-chapter-020"
+    "chapters/hpmor-chapter-021"
+    "chapters/nomoj-1"
+    "hp-colophon"
+    "hp-book"))
+ :latex)
+

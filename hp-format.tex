@@ -25,6 +25,14 @@
 \renewcommand{\DefaultLoversize}{.2}
 \renewcommand{\DefaultLraise}{0.1}
 
+
+\newcommand{\numberstringnumesp}[1]{
+\ifthenelse{\equal{#1}{1}} {unu}{\ifthenelse{\equal{#1}{2}} {du}{\ifthenelse{\equal{#1}{3}} {tri}{\ifthenelse{\equal{#1}{4}} {kvar}{\ifthenelse{\equal{#1}{5}} {kvin}{\ifthenelse{\equal{#1}{6}} {ses}{\ifthenelse{\equal{#1}{7}} {sep}{\ifthenelse{\equal{#1}{8}} {ok}{\ifthenelse{\equal{#1}{9}} {naŭ}{\ifthenelse{\equal{#1}{10}} {dek}{\ifthenelse{\equal{#1}{11}} {dek unu}{\ifthenelse{\equal{#1}{12}} {dek du}{\ifthenelse{\equal{#1}{13}} {dek tri}{\ifthenelse{\equal{#1}{14}} {dek kvar}{\ifthenelse{\equal{#1}{15}} {dek kvin}{\ifthenelse{\equal{#1}{16}} {dek ses}{\ifthenelse{\equal{#1}{17}} {dek sep}{\ifthenelse{\equal{#1}{18}} {dek ok}{\ifthenelse{\equal{#1}{19}} {dek naŭ}{\ifthenelse{\equal{#1}{20}} {dudek}{\ifthenelse{\equal{#1}{21}} {dudek unu}{\ifthenelse{\equal{#1}{22}} {dudek du}{}}}}}}}}}}}}}}}}}}}}}}}
+
+\newcommand{\numberstringnumespup}[1]{
+\ifthenelse{\equal{#1}{1}} {UNU}{\ifthenelse{\equal{#1}{2}} {DU}{\ifthenelse{\equal{#1}{3}} {TRI}{\ifthenelse{\equal{#1}{4}} {KVAR}{\ifthenelse{\equal{#1}{5}} {KVIN}{\ifthenelse{\equal{#1}{6}} {SES}{\ifthenelse{\equal{#1}{7}} {SEP}{\ifthenelse{\equal{#1}{8}} {OK}{\ifthenelse{\equal{#1}{9}} {NAŬ}{\ifthenelse{\equal{#1}{10}} {DEK}{\ifthenelse{\equal{#1}{11}} {DEK UNU}{\ifthenelse{\equal{#1}{12}} {DEK DU}{\ifthenelse{\equal{#1}{13}} {DEK TRI}{\ifthenelse{\equal{#1}{14}} {DEK KVAR}{\ifthenelse{\equal{#1}{15}} {DEK KVIN}{\ifthenelse{\equal{#1}{16}} {DEK SES}{\ifthenelse{\equal{#1}{17}} {DEK SEP}{\ifthenelse{\equal{#1}{18}} {DEK OK}{\ifthenelse{\equal{#1}{19}} {DEK NAŬ}{\ifthenelse{\equal{#1}{20}} {DUDEK}{\ifthenelse{\equal{#1}{21}} {DUDEK UNU}{\ifthenelse{\equal{#1}{22}} {DUDEK DU}{}}}}}}}}}}}}}}}}}}}}}}}
+
+
 % Extend lettrine cutout when more than one paragraph goes alongside the drop-cap
 % Copied, with different macro names, from
 % https://tex.stackexchange.com/questions/369868/using-lettrine-with-short-paragraphs
@@ -119,3 +127,4 @@
 \usepackage{afterpage}
 \usepackage{gitinfo2}
 \usepackage{hyphenat}
+
