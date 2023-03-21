@@ -1,4 +1,4 @@
-y* Ĉapitroj : 
+* Ĉapitroj : 
 
 | Numero | Finita | relegita | 2   |
 |      1 | Jes    | Jes      | Jes |
@@ -12,16 +12,9 @@ y* Ĉapitroj :
 |      9 | Jes    | Jes      | Jes |
 |     10 | Jes    | Jes      | Jes |
 |     11 | Jes    | Jes      | Jes |
-|     12 | Jes    | Ne       |     |
-|        |        |          |     |
+|     12 | Jes    | Jes      | Jes |
+|     13 | Ne     |          |     |
 
-** TODO 12
+** TODO 13
 
-   ligne 0
-
-** TODO 12                                                           :relegi: 
-   DEADLINE: <2021-05-20 jeu.>
-   
-   ligne 463
-   
-   
+   ligne 485
