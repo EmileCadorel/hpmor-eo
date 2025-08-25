@@ -14,6 +14,18 @@
 |     11 | Jes    | Jes      | Jes |
 |     12 | Jes    | Jes      | Jes |
 |     13 | jes    | Jes      |     |
+|     14 | Jes    |          |     |
+|     15 | Jes    |          |     |
+|     16 | Jes    |          |     |
+|     17 | Jes    |          |     |
+|     18 | Jes    |          |     |
+|     19 | Jes    |          |     |
+|     20 | Jes    |          |     |
+|     22 | Jes    |          |     |
+|     23 | Jes    |          |     |
+|     24 | Jes    |          |     |
+|     25 | Jes    |          |     |
+|     26 | No     |          |     |
 
 ** TODO 14
 
