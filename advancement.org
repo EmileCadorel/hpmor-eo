@@ -1,32 +1,36 @@
 * Ĉapitroj : 
 
-| Numero | Finita | relegita | 2   |
-|      1 | Jes    | Jes      | Jes |
-|      2 | Jes    | Jes      | Jes |
-|      3 | Jes    | Jes      | Jes |
-|      4 | Jes    | Jes      | Jes |
-|      5 | Jes    | Jes      | Jes |
-|      6 | Jes    | Jes      | Jes |
-|      7 | Jes    | Jes      | Jes |
-|      8 | Jes    | Jes      | Jes |
-|      9 | Jes    | Jes      | Jes |
-|     10 | Jes    | Jes      | Jes |
-|     11 | Jes    | Jes      | Jes |
-|     12 | Jes    | Jes      | Jes |
-|     13 | jes    | Jes      |     |
-|     14 | Jes    |          |     |
-|     15 | Jes    |          |     |
-|     16 | Jes    |          |     |
-|     17 | Jes    |          |     |
-|     18 | Jes    |          |     |
-|     19 | Jes    |          |     |
-|     20 | Jes    |          |     |
-|     22 | Jes    |          |     |
-|     23 | Jes    |          |     |
-|     24 | Jes    |          |     |
-|     25 | Jes    |          |     |
-|     26 | No     |          |     |
+| Numero | Finita | relegita | 2   | FINAL |
+|      1 | Jes    | Jes      | Jes | JES   |
+|      2 | Jes    | Jes      | Jes |       |
+|      3 | Jes    | Jes      | Jes |       |
+|      4 | Jes    | Jes      | Jes |       |
+|      5 | Jes    | Jes      | Jes |       |
+|      6 | Jes    | Jes      | Jes |       |
+|      7 | Jes    | Jes      | Jes |       |
+|      8 | Jes    | Jes      | Jes |       |
+|      9 | Jes    | Jes      | Jes |       |
+|     10 | Jes    | Jes      | Jes |       |
+|     11 | Jes    | Jes      | Jes |       |
+|     12 | Jes    | Jes      | Jes |       |
+|     13 | jes    | Jes      |     |       |
+|     14 | Jes    |          |     |       |
+|     15 | Jes    |          |     |       |
+|     16 | Jes    |          |     |       |
+|     17 | Jes    |          |     |       |
+|     18 | Jes    |          |     |       |
+|     19 | Jes    |          |     |       |
+|     20 | Jes    |          |     |       |
+|     22 | Jes    |          |     |       |
+|     23 | Jes    |          |     |       |
+|     24 | Jes    |          |     |       |
+|     25 | Jes    |          |     |       |
+|     26 | No     |          |     |       |
 
+**  TODO 1
+94
 ** TODO 14
+ligne 1
 
-   ligne 1
+** TODO 26
+ligne 192
