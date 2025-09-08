@@ -2,7 +2,7 @@
 
 | Numero | Finita | relegita | 2   | FINAL |
 |      1 | Jes    | Jes      | Jes | JES   |
-|      2 | Jes    | Jes      | Jes |       |
+|      2 | Jes    | Jes      | Jes | JES   |
 |      3 | Jes    | Jes      | Jes |       |
 |      4 | Jes    | Jes      | Jes |       |
 |      5 | Jes    | Jes      | Jes |       |
@@ -27,8 +27,9 @@
 |     25 | Jes    |          |     |       |
 |     26 | No     |          |     |       |
 
-**  TODO 1
-94
+** TODO 2
+1
+
 ** TODO 14
 ligne 1
 
